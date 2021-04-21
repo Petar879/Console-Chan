@@ -14,9 +14,10 @@ External libraries used in the project:
 - **\[thread id]** - When a command for displaying threads is used (such as: lt, pp, np) the thread id can be found between square brackets.
 - **\[response id]** - When a thread is displayed, the id of the response can be found between square brackets.
 
-|**IN MAIN PAGE COMMANDS**|
-|:--------------|
-|*Command name* |*Description*																|*Use in program*|
+|**IN MAIN PAGE COMMANDS**| | |
+|:-------------------|:-------------------|:-------------------|
+| **Command name**   | **Description**      |*Use in program*|
+|:-------------------|:---------------------|:---------------|
 |lb			    |List all boards															|lb				 |
 |cb		        |Load the specific board catalog											|cb \[board code]| 
 |help		    |Shows all currently available commands										|help			 |
