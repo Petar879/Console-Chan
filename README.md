@@ -37,5 +37,5 @@ External libraries used in the project:
 
 # Additional notes
 - If you want to build the project, you have to configure Visual Studio for "Release" and x64 platform.
-- Because the Command prompt on windows can't display bold nor italic text, I had color code it. With **cyan** text is bold and *yellow* the text is italic.
-- I can't promisse, but I will try to make it multiplatform in the future.
+- Because the Command prompt on windows can't display bold nor italic text, I had to color code it. With **cyan** the text is bold and *yellow* the text is italic.
+- In the future I will try to make it more linux friendly.
