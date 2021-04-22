@@ -19,15 +19,22 @@ bool PerformMainPageCommand(std::string commandAndValue)
 	else if (std::string(inputCommand) == "cb")
 	{
 		inputCommand = strtok(NULL, " ");
-		if (isInputBoardCurrect(inputCommand))
+		if (inputCommand == NULL)
 		{
-			InBoardMenuCommands(inputCommand);
+			std::cout << "Error, cb needs a board code" << std::endl;
 		}
 		else
 		{
-			
-			std::cout << "Board name " << inputCommand << " doesn't exist." << std::endl;
+			if (isInputBoardCurrect(inputCommand))
+			{
+				InBoardMenuCommands(inputCommand);
+			}
+			else
+			{
+				std::cout << "Board name " << inputCommand << " doesn't exist." << std::endl;
+			}
 		}
+		
 
 		return false;
 	}

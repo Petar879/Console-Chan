@@ -14,9 +14,9 @@ External libraries used in the project:
 - **\[thread id]** - When a command for displaying threads is used (such as: lt, pp, np) the thread id can be found between square brackets.
 - **\[response id]** - When a thread is displayed, the id of the response can be found between square brackets.
 
-|**IN MAIN PAGE COMMANDS**|
-|:--------------|
-|*Command name* |*Description*																|*Use in program*|
+| *Command name*          | *Description* | *Use in program* |
+|-----------------------|-------------|----------------|
+| **IN MAIN PAGE COMMANDS** |             |                |
 |lb			    |List all boards															|lb				 |
 |cb		        |Load the specific board catalog											|cb \[board code]| 
 |help		    |Shows all currently available commands										|help			 |
@@ -32,4 +32,10 @@ External libraries used in the project:
 |timg			|**(Windows only)** Load thread image										|timg			 |
 |ld				|**(Windows only)** Loads specific data from thread (image, video and etc)	|ld [response id]|	
 |btb			|Back to viewing threads													|btb			 |
-|help		    |Shows all currently available commands										|help			 |
+|help		    |Shows all currently available commands	
+									|help			 |									|help			 |
+
+# Additional notes
+- If you want to build the project, you have to configure Visual Studio for "Release" and x64 platform.
+- Because the Command prompt on windows can't display bold nor italic text, I had color code it. With **cyan** text is bold and *yellow* the text is italic.
+- I can't promisse, but I will try to make it multiplatform in the future.
