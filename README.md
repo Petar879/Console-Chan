@@ -32,8 +32,7 @@ External libraries used in the project:
 |timg			|**(Windows only)** Load thread image										|timg			 |
 |ld				|**(Windows only)** Loads specific data from thread (image, video and etc)	|ld [response id]|	
 |btb			|Back to viewing threads													|btb			 |
-|help		    |Shows all currently available commands	
-									|help			 |									|help			 |
+|help		    |Shows all currently available commands	|help			 |
 
 # Additional notes
 - If you want to build the project, you have to configure Visual Studio for "Release" and x64 platform.
